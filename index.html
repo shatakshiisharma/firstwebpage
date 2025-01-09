@@ -1,0 +1,128 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micro project</title>
+</head>
+<body>
+    <h1>EMPLOYEE PERSONAL INFORMATION MANAGEMENT SYSTEM</h1>
+    <P>NAME:  <input type="text" placeholder = "Enter name"></P>
+    <p> DOB: <input type="int" placeholder = "Enter DOB"></p>
+    <p> AGE: <input type="int" placeholder = "Enter AGE"></p>
+    <p>GENDER: 
+        <select name="gender">
+            <option value="MALE">MALE</option>
+            <option value="FEMALE">FEMALE</option>
+            <option value="OTHER">OTHER</option>
+        </select>
+    </p>
+        
+    <p>BLOOD GROUP: 
+        <select name="bloodGroup">
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+            
+        </select>
+    </p>
+    <p><input type="submit" value="SUBMIT"></p>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micro Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: #fff;
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        p {
+            margin: 10px 0;
+        }
+        input[type="text"],
+        input[type="int"],
+        select {
+            width: 100%;
+            padding: 8px 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 100%;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Employee Personal Information Management</h1>
+        <p>NAME: <input type="text" placeholder="Enter name"></p>
+        <p>DOB: <input type="text" placeholder="Enter DOB"></p>
+        <p>AGE: <input type="text" placeholder="Enter AGE"></p>
+        <p>GENDER:
+            <select name="gender">
+                <option value="MALE">MALE</option>
+                <option value="FEMALE">FEMALE</option>
+                <option value="OTHER">OTHER</option>
+            </select>
+        </p>
+        <p>BLOOD GROUP:
+            <select name="bloodGroup">
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+            </select>
+        </p>
+        <p><input type="submit" value="SUBMIT"></p>
+    </div>
+</body>
+</html>
